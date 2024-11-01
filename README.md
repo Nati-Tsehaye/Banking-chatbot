@@ -54,7 +54,7 @@ A full-stack AI-powered customer support chatbot that handles banking-related qu
 ### Frontend Setup
 1. Navigate to the `frontend` directory:
     ```bash
-    cd frontend
+    cd client
     ```
 2. Install dependencies:
     ```bash
