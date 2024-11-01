@@ -24,21 +24,6 @@ scikit-learn
 NLTK
 Pandas
 
-📁 Project Structure
-Copybanking-chatbot/
-├── backend/
-│   ├── app.py              # Flask server
-│   ├── chatbot.py          # ML model implementation
-│   └── requirements.txt    # Python dependencies
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   └── App.js        # Main application
-│   └── package.json
-│
-└── notebook/
-    └── training.ipynb     # Model training notebook
 ⚙️ Setup & Installation
 Backend Setup
 bashCopycd backend
@@ -110,6 +95,3 @@ Banking77 Dataset from Hugging Face
 React.js community
 scikit-learn contributors
 NLTK team
-
-📞 Support
-Open an issue or submit a pull request for any bugs/improvements.
