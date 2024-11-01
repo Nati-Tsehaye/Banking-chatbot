@@ -1,57 +1,91 @@
-Banking Support Chatbot
+# Banking Support Chatbot
+
 A full-stack AI-powered customer support chatbot that handles banking-related queries. Built with React and Python, this project combines machine learning capabilities with a modern web interface.
-Show Image
+
 ![Screenshot 2024-10-29 234356](https://github.com/user-attachments/assets/0955a533-1bf6-42a1-8095-60f9aed1a722)
-✨ Features
 
-Real-time chat interface
-77 different banking-related categories
-Machine learning-powered responses
-Modern, responsive UI
-Pre-trained model included
-Easy-to-use API endpoints
+## ✨ Features
 
-🚀 Tech Stack
-Frontend
+- Real-time chat interface
+- 77 different banking-related categories
+- Machine learning-powered responses
+- Modern, responsive UI
+- Pre-trained model included
+- Easy-to-use API endpoints
 
-React.js
-Tailwind CSS
-JavaScript/ES6+
+## 🚀 Tech Stack
 
-Backend
+### Frontend
+- React.js
+- Tailwind CSS
+- JavaScript/ES6+
 
-Python/Flask
-scikit-learn
-NLTK
-Pandas
+### Backend
+- Python/Flask
+- scikit-learn
+- NLTK
+- Pandas
 
-⚙️ Setup & Installation
-Backend Setup
-bashCopycd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-Frontend Setup
-bashCopycd frontend
-npm install
-🚀 Running the Application
+## ⚙️ Setup & Installation
 
-Start Backend:
+### Backend Setup
+1. Navigate to the `backend` directory:
+    ```bash
+    cd backend
+    ```
+2. Set up a virtual environment:
+    ```bash
+    python -m venv venv
+    ```
+3. Activate the virtual environment:
+   - On macOS/Linux:
+      ```bash
+      source venv/bin/activate
+      ```
+   - On Windows:
+      ```bash
+      venv\Scripts\activate
+      ```
+4. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-bashCopycd backend
-python app.py
+### Frontend Setup
+1. Navigate to the `frontend` directory:
+    ```bash
+    cd frontend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+## 🚀 Running the Application
 
-Start Frontend:
+### Start Backend:
+1. Navigate to the `backend` directory and start the backend server:
+    ```bash
+    cd backend
+    python app.py
+    ```
 
-bashCopycd frontend
-npm start
-Visit http://localhost:3000 to use the chatbot.
-🔧 Model Training (Optional)
+### Start Frontend:
+1. Navigate to the `frontend` directory and start the frontend:
+    ```bash
+    cd frontend
+    npm start
+    ```
+Visit [http://localhost:3000](http://localhost:3000) to use the chatbot.
+
+## 🔧 Model Training (Optional)
+
 The project includes a pre-trained model, but you can retrain it:
-bashCopycd notebook
+```bash
+cd notebook
 jupyter notebook training.ipynb
-🌟 Main Features Explained
-Chatbot Intelligence
+```
+## 🌟 Main Features Explained
+### Chatbot Intelligence
 
 Natural language processing for query understanding
 TF-IDF vectorization for text analysis
