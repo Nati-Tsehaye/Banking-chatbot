@@ -87,46 +87,53 @@ jupyter notebook training.ipynb
 ## 🌟 Main Features Explained
 ### Chatbot Intelligence
 
-Natural language processing for query understanding
-TF-IDF vectorization for text analysis
-Logistic Regression model for intent classification
-Pre-defined response templates for accuracy
+- Natural language processing for query understanding
+- TF-IDF vectorization for text analysis
+- Logistic Regression model for intent classification
+- Pre-defined response templates for accuracy
 
-Web Interface
+## Web Interface
 
-Real-time message updates
-Message history
-Typing indicators
-Mobile-responsive design
-Error handling
+- Real-time message updates
+- Message history
+- Typing indicators
+- Mobile-responsive design
+- Error handling
 
-📡 API Endpoints
-javascriptCopyPOST /api/chat
+## 📡 API Endpoints
+
+### Chat Endpoint
+
+- **Endpoint**: `POST /api/chat`
+- **Description**: Handles user queries and returns chatbot responses.
+
+#### Example Request
+```json
+POST /api/chat
 {
     "message": "How do I activate my card?"
 }
-💡 Use Cases
+```
+## Card activation queries
+- Transaction issues
+- Account management
+- Balance inquiries
+- Transfer assistance
+- General banking support
 
-Card activation queries
-Transaction issues
-Account management
-Balance inquiries
-Transfer assistance
-General banking support
+## 🤝 Contributing
 
-🤝 Contributing
+- Fork the repository
+- Create a feature branch
+- Commit changes
+- Push to the branch
+- Create a Pull Request
 
-Fork the repository
-Create a feature branch
-Commit changes
-Push to the branch
-Create a Pull Request
-
-📄 License
+## 📄 License
 MIT License
-👏 Acknowledgments
 
-Banking77 Dataset from Hugging Face
-React.js community
-scikit-learn contributors
-NLTK team
+## 👏 Acknowledgments
+- Banking77 Dataset from Hugging Face
+- React.js community
+- scikit-learn contributors
+- NLTK team
