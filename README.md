@@ -70,9 +70,9 @@ A full-stack AI-powered customer support chatbot that handles banking-related qu
     ```
 
 ### Start Frontend:
-1. Navigate to the `frontend` directory and start the frontend:
+1. Navigate to the `client` directory and start the frontend:
     ```bash
-    cd frontend
+    cd client
     npm start
     ```
 Visit [http://localhost:3000](http://localhost:3000) to use the chatbot.
