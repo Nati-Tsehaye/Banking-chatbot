@@ -1,0 +1,19 @@
+2024-10-29 23:08:10,895 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:08:11,885 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\backend\\models\\model_20241029_200521.joblib'
+2024-10-29 23:08:11,887 - __main__ - ERROR - Failed to initialize chatbot: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\backend\\models\\model_20241029_200521.joblib'
+2024-10-29 23:08:11,915 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-29 23:08:11,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-29 23:08:11,926 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:08:13,428 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:08:14,547 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\backend\\models\\model_20241029_200521.joblib'
+2024-10-29 23:08:14,547 - __main__ - ERROR - Failed to initialize chatbot: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\backend\\models\\model_20241029_200521.joblib'
+2024-10-29 23:08:14,555 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:08:14,557 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:09:23,230 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\backend\\app.py', reloading
+2024-10-29 23:09:23,464 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:09:25,047 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:09:25,866 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\backend\\models\\model_20241029_200521.joblib'
+2024-10-29 23:09:25,867 - __main__ - ERROR - Failed to initialize chatbot: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\backend\\models\\model_20241029_200521.joblib'
+2024-10-29 23:09:25,880 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:09:25,883 - werkzeug - INFO -  * Debugger PIN: 841-397-336

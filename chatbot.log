@@ -1,0 +1,549 @@
+2024-10-29 23:09:55,821 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:09:56,691 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\models\\mappings_20241028_195153.json'
+2024-10-29 23:09:56,691 - __main__ - ERROR - Failed to initialize chatbot: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\models\\mappings_20241028_195153.json'
+2024-10-29 23:09:56,714 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-29 23:09:56,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-29 23:09:56,722 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:09:57,991 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:09:59,199 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\models\\mappings_20241028_195153.json'
+2024-10-29 23:09:59,199 - __main__ - ERROR - Failed to initialize chatbot: [Errno 2] No such file or directory: 'C:\\Users\\Nati\\Desktop\\test2\\models\\mappings_20241028_195153.json'
+2024-10-29 23:09:59,207 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:09:59,220 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:10:37,580 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:10:37] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:10:37,843 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:10:37] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2024-10-29 23:12:21,835 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:12:21,985 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:12:23,741 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:12:24,826 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:12:24,834 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:12:24,837 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:12:38,042 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:12:38] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:12:38,307 - __main__ - INFO - Received chat request with message: transaction failed
+2024-10-29 23:12:38,308 - __main__ - INFO - Received input text: transaction failed
+2024-10-29 23:12:38,310 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:12:38,316 - __main__ - INFO - Prediction successful. Category: 8
+2024-10-29 23:12:38,317 - __main__ - INFO - Sending response: {'category': 8, 'response': "To cancel a transfer, please go to the 'Transfers' section in the app and select 'Cancel'."}
+2024-10-29 23:12:38,318 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:12:38] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:12:59,463 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:12:59] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:12:59,781 - __main__ - INFO - Received chat request with message: stolen card
+2024-10-29 23:12:59,782 - __main__ - INFO - Received input text: stolen card
+2024-10-29 23:12:59,785 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:12:59,794 - __main__ - INFO - Prediction successful. Category: 41
+2024-10-29 23:12:59,794 - __main__ - INFO - Sending response: {'category': 41, 'response': "I'm sorry, I can't assist with that request."}
+2024-10-29 23:12:59,796 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:12:59] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:13:28,645 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:13:28] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:13:28,952 - __main__ - INFO - Received chat request with message: I want to know about the cash withdrawal charge
+2024-10-29 23:13:28,953 - __main__ - INFO - Received input text: I want to know about the cash withdrawal charge
+2024-10-29 23:13:28,955 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:13:28,958 - __main__ - INFO - Prediction successful. Category: 20
+2024-10-29 23:13:28,959 - __main__ - INFO - Sending response: {'category': 20, 'response': "I'm sorry, I can't assist with that request."}
+2024-10-29 23:13:28,960 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:13:28] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:15:26,307 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:15:26] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:15:26,554 - __main__ - INFO - Received chat request with message: activate card
+2024-10-29 23:15:26,555 - __main__ - INFO - Received input text: activate card
+2024-10-29 23:15:26,558 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:15:26,563 - __main__ - INFO - Prediction successful. Category: 0
+2024-10-29 23:15:26,563 - __main__ - INFO - Sending response: {'category': 0, 'response': "To activate your new card, you can:\n1. Open the mobile app and go to the 'Cards' section\n2. Select 'Activate Card' and follow the on-screen instructions\n3. Or, you can call our customer support line and they'll be happy to assist you."}
+2024-10-29 23:15:26,564 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:15:26] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:21:35,216 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:21:35,383 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:21:36,795 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:21:37,693 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:21:37,715 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:21:37,719 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:22:04,404 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:22:04] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:22:04,654 - __main__ - INFO - Received chat request with message: what is todays exchange rate?
+2024-10-29 23:22:04,654 - __main__ - INFO - Received input text: what is todays exchange rate?
+2024-10-29 23:22:04,655 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:22:04,658 - __main__ - INFO - Prediction successful. Category: 32
+2024-10-29 23:22:04,658 - __main__ - INFO - Sending response: {'category': 32, 'response': 'Current exchange rates can be viewed in the app or on our website.'}
+2024-10-29 23:22:04,664 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:22:04] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:22:39,320 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:22:39] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:22:39,634 - __main__ - INFO - Received chat request with message: my transfer is declined
+2024-10-29 23:22:39,635 - __main__ - INFO - Received input text: my transfer is declined
+2024-10-29 23:22:39,636 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:22:39,637 - __main__ - INFO - Prediction successful. Category: 27
+2024-10-29 23:22:39,637 - __main__ - INFO - Sending response: {'category': 27, 'response': 'If your transfer was declined, please check the reason in the app or contact support.'}
+2024-10-29 23:22:39,638 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:22:39] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:23:09,739 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:23:09] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:23:10,053 - __main__ - INFO - Received chat request with message: I want to talk to human
+2024-10-29 23:23:10,054 - __main__ - INFO - Received input text: I want to talk to human
+2024-10-29 23:23:10,056 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:23:10,063 - __main__ - INFO - Prediction successful. Category: 52
+2024-10-29 23:23:10,065 - __main__ - INFO - Sending response: {'category': 52, 'response': 'To request a refund, please contact support with your transaction details.'}
+2024-10-29 23:23:10,067 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:23:10] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:27:24,136 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:27:24,271 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:30:34,100 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:30:35,037 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:30:35,077 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-29 23:30:35,077 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-29 23:30:35,080 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:30:36,364 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:30:37,394 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:30:37,409 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:30:37,416 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:30:54,423 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:30:54] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:30:54,676 - __main__ - INFO - Received chat request with message: ensure you're eligible
+2024-10-29 23:30:54,677 - __main__ - INFO - Received input text: ensure you're eligible
+2024-10-29 23:30:54,678 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:30:54,681 - __main__ - INFO - Prediction successful. Category: 24
+2024-10-29 23:30:54,681 - __main__ - INFO - Sending response: {'category': 24, 'response': 'For country-specific support, please visit our support page for more details.'}
+2024-10-29 23:30:54,681 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:30:54] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:31:02,451 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:31:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:31:02,791 - __main__ - INFO - Received chat request with message: hi I want to check my age if I am elgible
+2024-10-29 23:31:02,792 - __main__ - INFO - Received input text: hi I want to check my age if I am elgible
+2024-10-29 23:31:02,793 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:31:02,794 - __main__ - INFO - Prediction successful. Category: 1
+2024-10-29 23:31:02,795 - __main__ - INFO - Sending response: {'category': 1, 'response': "To ensure you're eligible, please check our age requirements on the website or contact support for assistance."}
+2024-10-29 23:31:02,795 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:31:02] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:34:55,488 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:34:55] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:34:55,753 - __main__ - INFO - Received chat request with message: thank you
+2024-10-29 23:34:55,754 - __main__ - INFO - Received input text: thank you
+2024-10-29 23:34:55,755 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:34:55,758 - __main__ - INFO - Prediction successful. Category: 52
+2024-10-29 23:34:55,758 - __main__ - INFO - Sending response: {'category': 52, 'response': 'To request a refund, please contact support with your transaction details.'}
+2024-10-29 23:34:55,760 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:34:55] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:39:47,019 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:39:47,230 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:39:48,700 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:39:49,535 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:39:49,546 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:39:49,549 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:40:03,288 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:40:03,427 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:40:04,799 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:40:05,628 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:40:05,639 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:40:05,640 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:40:19,812 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:40:19] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:40:20,063 - __main__ - INFO - Received chat request with message: thank you
+2024-10-29 23:40:20,063 - __main__ - INFO - Received input text: thank you
+2024-10-29 23:40:20,064 - __main__ - INFO - Sending response: {'category': 'custom', 'response': "You're very welcome! Let me know if there's anything else I can help with."}
+2024-10-29 23:40:20,066 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:40:20] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:40:34,726 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:40:34] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:40:35,046 - __main__ - INFO - Received chat request with message: I want to talk to human
+2024-10-29 23:40:35,047 - __main__ - INFO - Received input text: I want to talk to human
+2024-10-29 23:40:35,049 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:40:35,052 - __main__ - INFO - Prediction successful. Category: 52
+2024-10-29 23:40:35,052 - __main__ - INFO - Sending response: {'category': 52, 'response': 'To request a refund, please contact support with your transaction details.'}
+2024-10-29 23:40:35,053 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:40:35] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:40:54,269 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:40:54,461 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:40:56,132 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:40:57,248 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:40:57,258 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:40:57,261 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:41:10,544 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:41:10] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:41:10,813 - __main__ - INFO - Received chat request with message: I want to talk to a human
+2024-10-29 23:41:10,814 - __main__ - INFO - Received input text: I want to talk to a human
+2024-10-29 23:41:10,819 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:41:10,828 - __main__ - INFO - Prediction successful. Category: 52
+2024-10-29 23:41:10,829 - __main__ - INFO - Sending response: {'category': 52, 'response': 'To request a refund, please contact support with your transaction details.'}
+2024-10-29 23:41:10,836 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:41:10] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:41:25,042 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:41:25] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:41:25,361 - __main__ - INFO - Received chat request with message: bye
+2024-10-29 23:41:25,361 - __main__ - INFO - Received input text: bye
+2024-10-29 23:41:25,362 - __main__ - INFO - Sending response: {'category': 'custom', 'response': 'Goodbye! Have a great day!'}
+2024-10-29 23:41:25,362 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:41:25] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:42:02,788 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:42:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:42:03,105 - __main__ - INFO - Received chat request with message: hello
+2024-10-29 23:42:03,106 - __main__ - INFO - Received input text: hello
+2024-10-29 23:42:03,106 - __main__ - INFO - Sending response: {'category': 'custom', 'response': 'Hello! How can I assist you today?'}
+2024-10-29 23:42:03,107 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:42:03] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:42:20,882 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:42:21,042 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:42:22,411 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:42:23,240 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:42:23,249 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:42:23,251 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:42:25,470 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:42:25,584 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:42:26,988 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:42:27,799 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:42:27,808 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:42:27,811 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:42:50,561 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Nati\\Desktop\\test2\\app.py', reloading
+2024-10-29 23:42:50,731 - werkzeug - INFO -  * Restarting with stat
+2024-10-29 23:42:52,166 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-10-29 23:42:53,055 - __main__ - INFO - Model and components loaded successfully!
+2024-10-29 23:42:53,065 - werkzeug - WARNING -  * Debugger is active!
+2024-10-29 23:42:53,067 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-10-29 23:43:02,738 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:02] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:02,984 - __main__ - INFO - Received chat request with message: hi
+2024-10-29 23:43:02,985 - __main__ - INFO - Received input text: hi
+2024-10-29 23:43:02,986 - __main__ - INFO - Sending response: {'category': 'custom', 'response': 'Hello, valued client!'}
+2024-10-29 23:43:02,986 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:02] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:17,062 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:17] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:17,393 - __main__ - INFO - Received chat request with message: I want to know about the cash withdrawal charges.
+2024-10-29 23:43:17,393 - __main__ - INFO - Received input text: I want to know about the cash withdrawal charges.
+2024-10-29 23:43:17,395 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:43:17,399 - __main__ - INFO - Prediction successful. Category: 20
+2024-10-29 23:43:17,399 - __main__ - INFO - Sending response: {'category': 20, 'response': "If your cash withdrawal isn't recognized, please check your transaction history or contact support."}
+2024-10-29 23:43:17,401 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:17] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:35,178 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:35] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:35,486 - __main__ - INFO - Received chat request with message: What do I do if my card is lost?
+2024-10-29 23:43:35,487 - __main__ - INFO - Received input text: What do I do if my card is lost?
+2024-10-29 23:43:35,489 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-29 23:43:35,495 - __main__ - INFO - Prediction successful. Category: 41
+2024-10-29 23:43:35,496 - __main__ - INFO - Sending response: {'category': 41, 'response': 'If your card is lost or stolen, please report it immediately through the app.'}
+2024-10-29 23:43:35,497 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:35] "POST /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:45,415 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:45] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-29 23:43:45,733 - __main__ - INFO - Received chat request with message: thank you for the help
+2024-10-29 23:43:45,734 - __main__ - INFO - Received input text: thank you for the help
+2024-10-29 23:43:45,734 - __main__ - INFO - Sending response: {'category': 'custom', 'response': "You're very welcome! Let me know if there's anything else I can help with."}
+2024-10-29 23:43:45,735 - werkzeug - INFO - 127.0.0.1 - - [29/Oct/2024 23:43:45] "POST /api/chat HTTP/1.1" 200 -
+2024-10-30 01:44:44,752 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 01:44:44] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-10-30 01:44:44,984 - __main__ - INFO - Received chat request with message: what up
+2024-10-30 01:44:44,985 - __main__ - INFO - Received input text: what up
+2024-10-30 01:44:44,994 - __main__ - ERROR - Error during text preprocessing: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Nati/nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\share\\nltk_data'
+    - 'C:\\Users\\Nati\\Desktop\\test2\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\Nati\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2024-10-30 01:44:45,017 - __main__ - INFO - Prediction successful. Category: 69
+2024-10-30 01:44:45,018 - __main__ - INFO - Sending response: {'category': 69, 'response': "To verify your identity, please follow the steps in the app under 'Verify Identity'."}
+2024-10-30 01:44:45,020 - werkzeug - INFO - 127.0.0.1 - - [30/Oct/2024 01:44:45] "POST /api/chat HTTP/1.1" 200 -
+2024-11-01 16:01:59,136 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-11-01 16:01:59,973 - __main__ - INFO - Model and components loaded successfully!
+2024-11-01 16:02:00,002 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 16:02:00,002 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-01 16:02:00,003 - werkzeug - INFO -  * Restarting with stat
+2024-11-01 16:02:00,883 - __main__ - INFO - Initializing ChatbotPredictor...
+2024-11-01 16:02:01,672 - __main__ - INFO - Model and components loaded successfully!
+2024-11-01 16:02:01,677 - werkzeug - WARNING -  * Debugger is active!
+2024-11-01 16:02:01,679 - werkzeug - INFO -  * Debugger PIN: 841-397-336
+2024-11-01 16:02:33,625 - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 16:02:33] "OPTIONS /api/chat HTTP/1.1" 200 -
+2024-11-01 16:02:33,884 - __main__ - INFO - Received chat request with message: hi
+2024-11-01 16:02:33,884 - __main__ - INFO - Received input text: hi
+2024-11-01 16:02:33,884 - __main__ - INFO - Sending response: {'category': 'custom', 'response': 'Hello, valued client!'}
+2024-11-01 16:02:33,885 - werkzeug - INFO - 127.0.0.1 - - [01/Nov/2024 16:02:33] "POST /api/chat HTTP/1.1" 200 -
