@@ -1,6 +1,7 @@
 Banking Support Chatbot
 A full-stack AI-powered customer support chatbot that handles banking-related queries. Built with React and Python, this project combines machine learning capabilities with a modern web interface.
 Show Image
+![Screenshot 2024-10-29 234356](https://github.com/user-attachments/assets/0955a533-1bf6-42a1-8095-60f9aed1a722)
 ✨ Features
 
 Real-time chat interface
